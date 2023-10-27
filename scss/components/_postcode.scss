@@ -1,0 +1,45 @@
+.postcode-lookup {
+    padding: 30px;
+    background-color: $black;
+
+    p {
+        color: $white;
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        margin-bottom: 10px;
+        border-color: $white;
+
+        &:focus,
+        &:active {
+
+            &::placeholder {
+                text-indent: -9999px;
+            }
+        }
+    }
+
+    button[type="submit"] {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        border:1px solid $orange;
+        background-color: $orange;
+        color: $white;
+        margin-top: 15px;
+        font-family: $font1;
+        cursor: pointer;
+        transition: all .3s ease;
+
+        &:hover {
+            background-color: lighten($orange,5%);
+        }
+    }
+}

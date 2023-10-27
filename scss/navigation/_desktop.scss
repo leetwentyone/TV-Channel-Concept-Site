@@ -1,0 +1,36 @@
+nav.primary {
+    width: 100%;
+    background-color: $yellow;
+
+    ul {
+        display: flex;
+        width: 100%;
+    }
+
+    li {
+        list-style: none;
+        flex: 1;
+        transition: all .3s ease;
+
+        &:not(:first-of-type) {
+            border-left: 1px solid $purple;
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0;
+        text-align: center;
+        color: $purple;
+        font-family: $bouldmedium;
+        transition: all .3s ease;
+
+        &:hover {
+            background-color: lighten($yellow,7%);
+            text-decoration: none;
+            color: $black;
+        }
+    }
+}
