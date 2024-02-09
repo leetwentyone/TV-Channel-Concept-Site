@@ -1,8 +1,15 @@
 <header class="site-header">
   <div class="header-inner">
 
-    <a href="#" class="search-toggle"><img src="images/search.png"></a>
-    <a href="tel:0000000000">0000 000 000</a>
+    <div class="search">
+      <form>
+        <input type="text" placeholder="I'm looking for...">
+        <button type="submit"><img src="images/search.png"></button>
+      </form>
+    </div> 
+
+    <a href="#" class="search-toggle"><img src="images/search.png"><img src="images/close.png"></a>
+    <a href="tel:0000000000">0000 000 000</a>   
 
   </div>
 
