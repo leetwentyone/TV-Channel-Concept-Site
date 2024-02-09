@@ -29,7 +29,7 @@
         <span class="dot-pattern-large--top-right"></span>
         <img src="images/Kruisbeet-verhelpen.jpeg">
         <div class="text-container">
-          <h1>Shop</h1>
+          <h1>Sectors</h1>
           <p class="leading">Ut fermentum nisl leo, non tempus felis porttitor ut. Duis sodales dolor vitae magna mattis</p>
           <p>
             Sed vitae diam felis. Donec blandit massa vitae justo condimentum, eu laoreet sapien porttitor. 
