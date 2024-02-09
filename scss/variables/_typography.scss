@@ -1,82 +1,26 @@
+@font-face {
+    font-family: 'basier_squarebold';
+    src: url('fonts/basiersquare-bold-webfont.eot');
+    src: url('fonts/basiersquare-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/basiersquare-bold-webfont.woff2') format('woff2'),
+         url('fonts/basiersquare-bold-webfont.woff') format('woff'),
+         url('fonts/basiersquare-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archiathin';
+    src: url('fonts/archia-thin-webfont.eot');
+    src: url('fonts/archia-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/archia-thin-webfont.woff2') format('woff2'),
+         url('fonts/archia-thin-webfont.woff') format('woff'),
+         url('fonts/archia-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 $globalfont: sans-serif;
-
-@import url("https://p.typekit.net/p.css?s=1&k=kwc6eok&ht=tk&f=2005.2007.2009&a=142459270&app=typekit&e=css");
-
-@font-face {
-    font-family:"museo-sans";
-    src:url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") 
-    format("woff2"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") 
-    format("woff"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") 
-    format("opentype");
-    font-display:auto;
-    font-style:normal;
-    font-weight:300;
-    font-stretch:normal;
-}
-
-@font-face {
-    font-family:"museo-sans";
-    src:url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
-    format("woff2"),url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
-    format("woff"),url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
-    format("opentype");
-    font-display:auto;
-    font-style:normal;
-    font-weight:500;
-    font-stretch:normal;
-}
-
-@font-face {
-    font-family:"museo-sans";
-    src:url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") 
-    format("woff2"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") 
-    format("woff"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-    format("opentype");
-    font-display:auto;
-    font-style:normal;
-    font-weight:700;
-    font-stretch:normal;
-}
-
-@font-face {
-    font-family: 'bouldbold';
-    src: url('fonts/bould-bold-webfont.eot');
-    src: url('fonts/bould-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/bould-bold-webfont.woff2') format('woff2'),
-         url('fonts/bould-bold-webfont.woff') format('woff'),
-         url('fonts/bould-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'bouldmedium';
-    src: url('fonts/bould-medium-webfont.eot');
-    src: url('fonts/bould-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/bould-medium-webfont.woff2') format('woff2'),
-         url('fonts/bould-medium-webfont.woff') format('woff'),
-         url('fonts/bould-medium-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'bouldregular';
-    src: url('fonts/bould-regular-webfont.eot');
-    src: url('fonts/bould-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/bould-regular-webfont.woff2') format('woff2'),
-         url('fonts/bould-regular-webfont.woff') format('woff'),
-         url('fonts/bould-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-$bouldbold: 'bouldbold';
-$bouldmedium: 'bouldmedium';
-$bouldreg: 'bouldregular';
-$museo: 'museo-sans';
-
-$font1: $bouldreg;
-$font2: $museo;
-$font3: $bouldmedium;
-$font4: $bouldbold;
+$basierbold: 'basier_squarebold', sans-serif;
+$archiathin: 'archiathin', sans-serif;

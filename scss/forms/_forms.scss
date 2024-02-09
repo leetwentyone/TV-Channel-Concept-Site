@@ -9,8 +9,8 @@ input[type="tel"] {
     padding-left: 10px;
 
     &:focus {
-        outline: 1px dashed $green;
-        border-color: $green;
+        outline: 1px dashed $black;
+        border-color: $black;
     }
 }
 
@@ -30,8 +30,8 @@ select {
 
     &:focus,
     &:active {
-        outline: 1px dashed $green;
-        border-color: $green;
+        outline: 1px dashed $black;
+        border-color: $black;
     }
 }
 
@@ -44,24 +44,12 @@ textarea {
     resize: none;
 
     &:focus {
-        outline: 1px dashed $green;
-        border-color: $green;
+        outline: 1px dashed $black;
+        border-color: $black;
     }
 }
 
 label {
     display: block;
     margin-bottom: 5px;
-    font-family: $font1;
-}
-
-.form-block {
-    padding-top: 60px;
-    padding-bottom: 60px;
-
-    input,
-    select,
-    textarea {
-        margin-bottom: 20px;
-    }
 }

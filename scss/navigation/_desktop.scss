@@ -1,9 +1,10 @@
 nav.primary {
     width: 100%;
-    background-color: $yellow;
+    background-color: $lightgrey;
 
     ul {
         display: flex;
+        position: relative;
         width: 100%;
     }
 
@@ -11,10 +12,6 @@ nav.primary {
         list-style: none;
         flex: 1;
         transition: all .3s ease;
-
-        &:not(:first-of-type) {
-            border-left: 1px solid $purple;
-        }
     }
 
     a {
@@ -23,14 +20,49 @@ nav.primary {
         justify-content: center;
         padding: 15px 0;
         text-align: center;
-        color: $purple;
-        font-family: $bouldmedium;
+        color: $black;
         transition: all .3s ease;
 
         &:hover {
-            background-color: lighten($yellow,7%);
             text-decoration: none;
+            background-color: $midgrey;
             color: $black;
         }
+    }
+
+    .submenu {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: -9999px;
+        background-color: $white;
+        transition: opacity .3s ease;
+        opacity: 0;
+        padding: 20px;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+
+    .has-children {
+
+        &:hover {
+
+            .submenu {
+                left: 0;
+                opacity: 1;
+            }
+        }
+    }
+
+    .col {
+        display: inline-block;
+        width: 35%;
+        border-right: 1px solid #eee;
+        padding: 0 30px;
+    }
+
+    .col-slim {
+        width: 30%;
+        padding: 0 30px;
     }
 }

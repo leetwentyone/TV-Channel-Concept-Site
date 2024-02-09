@@ -51,21 +51,8 @@ a {
 }
 
 .c-container {
-  position: relative;
   width: 100%;
   max-width: $sitewidth;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-left: 1px dashed red;
-  border-right: 1px dashed red;
-}
-
-.pt-0 {
-  padding-top: 0!important;
-}
-
-.pb-0 {
-  padding-bottom: 0!important;
 }
