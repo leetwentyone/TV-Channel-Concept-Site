@@ -307,23 +307,78 @@ a {
 .header-inner {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   padding: 30px 0;
   width: 100%;
   max-width: 1366px;
   margin: 0 auto; }
   .header-inner .search-toggle {
-    margin-right: 20px; }
+    margin-right: 20px;
+    position: relative; }
     .header-inner .search-toggle img {
-      max-width: 20px; }
+      max-width: 20px;
+      opacity: 1;
+      top: -7px;
+      right: 10px;
+      position: absolute;
+      transition: all .3s ease; }
+      .header-inner .search-toggle img + img {
+        opacity: 0; }
+    .header-inner .search-toggle.search-active img {
+      opacity: 0; }
+      .header-inner .search-toggle.search-active img + img {
+        opacity: 1; }
   .header-inner a[href^="tel"] {
     display: inline-block;
+    position: relative;
     font-family: "archiasemibold", sans-serif;
     color: #CC0044;
     font-weight: 700;
+    padding-right: 0;
+    transition: all .3s ease;
     text-decoration: underline;
     text-underline-offset: 5px; }
     .header-inner a[href^="tel"]:hover {
-      text-decoration: none; }
+      padding-right: 30px; }
+      .header-inner a[href^="tel"]:hover:after {
+        right: -10px;
+        opacity: 1; }
+    .header-inner a[href^="tel"]:after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      width: 30px;
+      height: 30px;
+      background-image: url("images/phone.png");
+      background-repeat: no-repeat;
+      background-size: 20px;
+      background-position: center;
+      opacity: 0;
+      transition: all .3s ease; }
+
+.search {
+  opacity: 0;
+  margin-right: 30px;
+  width: 400px;
+  transition: all .3s ease; }
+  .search.search-open {
+    opacity: 1; }
+  .search form {
+    display: flex;
+    margin-right: 20px; }
+  .search input[type="text"] {
+    width: calc(100% - 50px);
+    border-right: 0; }
+  .search button[type="submit"] {
+    width: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-left: 0;
+    cursor: pointer; }
+    .search button[type="submit"] img {
+      max-width: 20px; }
 
 /* Arrows */
 .slick-prev,
@@ -704,7 +759,7 @@ a {
     font-family: "archiathin", sans-serif;
     font-size: 30px;
     line-height: 40px;
-    width: 40ch; }
+    width: 30ch; }
   .text-container p:not(.leading) {
     font-size: 14px;
     line-height: 18px;
