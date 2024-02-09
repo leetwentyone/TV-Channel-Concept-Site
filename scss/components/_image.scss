@@ -5,6 +5,8 @@
   img {
     width: 100%;
     filter: grayscale(1);
+    transform: scale(1);
+    transition: all .6s ease;
     opacity: 0.333;
   }
 
@@ -17,6 +19,13 @@
     width: 100%;
     height: 100%;
     background-color: rgba(#3c096c,.9);
+  }
+
+  &:hover {
+
+    img {
+      transform: scale(1.02);
+    }
   }
 
 }
@@ -182,6 +191,8 @@
   img {
     width: 100%;
     filter: grayscale(1);
+    transform: scale(1);
+    transition: all .6s ease;
     opacity: 0.333;
   }
 
@@ -196,6 +207,12 @@
     background-color: rgba(#0496ff,.9);
   }
 
+  &:hover {
+
+    img {
+      transform: scale(1.02);
+    }
+  }
 }
 
 .red-overlay {
@@ -211,6 +228,8 @@
   img {
     width: 100%;
     filter: grayscale(1);
+    transform: scale(1);
+    transition: all .6s ease;
     opacity: 0.333;
   }
 
@@ -225,6 +244,12 @@
     background-color: rgba(#ff0a54,.9);
   }
 
+  &:hover {
+
+    img {
+      transform: scale(1.02);
+    }
+  }
 }
 
 .green-circle--bottom-right {
@@ -241,10 +266,10 @@
 
 .green-rectangle--middle-left {
   position: absolute;
-  width: 500px;
+  width: 300px;
   height: 500px;
   top: calc(50% - 250px);
-  left: -300px;
+  left: -200px;
   background-color: #d4d700;
   z-index: 5;
 }

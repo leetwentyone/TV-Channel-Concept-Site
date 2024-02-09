@@ -1,4 +1,36 @@
 .site-header {
+	position: relative;
 	border-bottom: 1px dashed red;
 	background-color: $white;
+	z-index: 1000;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: flex-end;
+	padding: 30px 0;
+	width: 100%;
+	max-width: $sitewidth;
+	margin: 0 auto;
+
+	.search-toggle {
+		margin-right: 20px;
+
+		img {
+			max-width: 20px;
+		}
+	}
+
+	a[href^="tel"] {
+		display: inline-block;
+		font-family: $archiabold;
+		color: #CC0044;
+    	font-weight: 700;
+		text-decoration: underline;
+		text-underline-offset: 5px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
