@@ -1,3 +1,19 @@
+/* Search Toggle */
+jQuery(function($){
+  jQuery('.search-toggle').click(function(e) {
+    e.preventDefault();
+    jQuery(".search").toggleClass("search-open");
+    jQuery(".search-toggle").toggleClass("search-active");
+  })
+});
+
+jQuery(function($){
+  jQuery('.close-search').click(function(e) {
+    e.preventDefault();
+    jQuery(".header-search").removeClass("search-open");
+  })
+});
+
 /* Accordion */
 jQuery(function($){
   jQuery(".accordion-item").find(".accordion-heading").click(function() {
