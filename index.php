@@ -22,11 +22,10 @@
     <div class="c-container">
 
       <div class="purple-overlay">
-        <span class="yellow-circle--top-left"></span>
-        <span class="yellow-circle--middle-right"></span>
-        <span class="orange-rectangle--bottom-right"></span>
-        <span class="dot-pattern--middle-left"></span>
-        <span class="dot-pattern-large--top-right"></span>
+        
+        <span class="orange-circle"><img src="images/circle2.png"></span>
+        <span class="blue-orange"><img src="images/blue-orange.png"></span>
+
         <img src="images/Kruisbeet-verhelpen.jpeg">
         <div class="text-container">
           <h1>Sectors</h1>
@@ -40,9 +39,7 @@
       </div>
 
       <div class="blue-overlay">
-        <span class="red-circle--bottom-left"></span>
-        <span class="red-rectangle--middle-right"></span>
-        <span class="dot-pattern--bottom-right"></span>
+        
         <img src="images/laughing-kids.jpg">
         <div class="text-container">
           <h1>Our Services</h1>
@@ -56,9 +53,7 @@
       </div>
 
       <div class="red-overlay">
-        <span class="green-circle--bottom-right"></span>
-        <span class="green-rectangle--middle-left"></span>
-        <span class="dot-pattern--middle-middle"></span>
+        
         <img src="images/old-couple.jpg">
         <div class="text-container">
           <h1>Join us</h1>

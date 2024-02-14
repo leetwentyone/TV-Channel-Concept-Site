@@ -22,10 +22,10 @@
           <div class="col">
             <ul>
               <li><a href="#">Our services</a></li>
-              <li><a href="#">Sectors</a></li>
               <li><a href="#">What to expect</a></li>
               <li><a href="#">How we can help</a></li>
               <li><a href="#">More about us</a></li>
+              <li><a href="#">Our team</a></li>
               <li><a href="#">Our locations</a></li>
               <li><a href="#">Get in touch</a></li>
               <li><a href="#">News</a></li>
@@ -48,15 +48,15 @@
           
           <div class="col">
             <ul>
-              <li><a href="#">Our services</a></li>
-              <li><a href="#">Sectors</a></li>
-              <li><a href="#">What to expect</a></li>
-              <li><a href="#">How we can help</a></li>
-              <li><a href="#">More about us</a></li>
-              <li><a href="#">Our locations</a></li>
-              <li><a href="#">Get in touch</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Careers</a></li>
+              <li><a href="#">Banking &amp; Finance</a></li>
+              <li><a href="#">Business Crime</a></li>
+              <li><a href="#">Commercial</a></li>
+              <li><a href="#">Employment</a></li>
+              <li><a href="#">Intellectual Property</a></li>
+              <li><a href="#">Pensions</a></li>
+              <li><a href="#">Restructuring &amp; Insolvency</a></li>
+              <li><a href="#">Tax</a></li>
+              <li><a href="#">Commercial Litigation &amp; Dispute Resolution</a></li>
             </ul>
           </div>
 
@@ -75,15 +75,13 @@
           
           <div class="col">
             <ul>
-              <li><a href="#">Our services</a></li>
-              <li><a href="#">Sectors</a></li>
-              <li><a href="#">What to expect</a></li>
-              <li><a href="#">How we can help</a></li>
-              <li><a href="#">More about us</a></li>
-              <li><a href="#">Our locations</a></li>
-              <li><a href="#">Get in touch</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Careers</a></li>
+              <li><a href="#">Retail</a></li>
+              <li><a href="#">Corporate</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Public Sector</a></li>
+              <li><a href="#">Hospitality</a></li>
+              <li><a href="#">Technology &amp; Digital</a></li>
+              <li><a href="#">Housing &amp; Regenerating</a></li>
             </ul>
           </div>
 
@@ -102,15 +100,15 @@
           
           <div class="col">
             <ul>
-              <li><a href="#">Our services</a></li>
-              <li><a href="#">Sectors</a></li>
-              <li><a href="#">What to expect</a></li>
-              <li><a href="#">How we can help</a></li>
-              <li><a href="#">More about us</a></li>
-              <li><a href="#">Our locations</a></li>
-              <li><a href="#">Get in touch</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Careers</a></li>
+              <li><a href="#">Family Law</a></li>
+              <li><a href="#">Divorce</a></li>
+              <li><a href="#">Adoption</a></li>
+              <li><a href="#">Child Services</a></li>
+              <li><a href="#">Personal Injury</a></li>
+              <li><a href="#">Wills,Trust &amp; Estates</a></li>
+              <li><a href="#">Elderly Legal Services</a></li>
+              <li><a href="#">Crime &amp; Investigation</a></li>
+              <li><a href="#">Property</a></li>
             </ul>
           </div>
 
