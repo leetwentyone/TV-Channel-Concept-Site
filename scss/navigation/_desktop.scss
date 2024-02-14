@@ -3,7 +3,6 @@ nav.primary {
     max-width: $sitewidth;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ff0054;
 
     ul {
         display: flex;
@@ -12,9 +11,67 @@ nav.primary {
     }
 
     li {
-        list-style: none;
-        flex: 1;
-        transition: all .3s ease;
+        &:not(.submenu li) {
+            list-style: none;
+            flex: 1;
+            transition: all .3s ease;
+
+            &:nth-of-type(1) {
+                background-color: $red;
+
+                .submenu {
+                    background-color: $red;
+                }
+            }
+
+            &:nth-of-type(2) {
+                background-color: $blue;
+
+                .submenu {
+                    background-color: $blue;
+                }
+            }
+
+            &:nth-of-type(3) {
+                background-color: $purple;
+
+                .submenu {
+                    background-color: $purple;
+                }
+            }
+
+            &:nth-of-type(4) {
+                background-color: $yellow;
+
+                .submenu {
+                    background-color: $yellow;
+                }
+
+                a {
+                    color: $black;
+                }
+            }
+
+            &:nth-of-type(5) {
+                background-color: $orange;
+
+                .submenu {
+                    background-color: $orange;
+                }
+            }
+
+            &:nth-of-type(6) {
+                background-color: $green;
+
+                .submenu {
+                    background-color: $green;
+                }
+
+                a {
+                    color: $white;
+                }
+            }
+        }
     }
 
     a {
@@ -30,8 +87,6 @@ nav.primary {
 
         &:hover {
             text-decoration: none;
-            background-color: #E7004D;
-            color: $white;
         }
     }
 
@@ -41,7 +96,6 @@ nav.primary {
         top: 100%;
         left: -9999px;
         overflow: hidden;
-        background-color: #E7004D;
         transition: opacity .3s ease;
         opacity: 0;
         padding: 20px;
